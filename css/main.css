@@ -1,0 +1,37 @@
+div.masthead {
+    padding: 20px 0 0 40px;
+}
+
+div.masthead h1 {
+    font-size       : 48px;
+}
+
+div.sidebar,
+div.content {
+    padding: 10px;
+}
+
+div.masthead,
+div.sidebar,
+div.content {
+    border          : 1px solid lightgray;
+    border-radius   : 20px;
+    margin-top      : 20px;
+}
+
+input[type="text"] {
+    width           : 100%;
+    box-sizing      : border-box;
+}
+
+textarea {
+    width           : 100%;
+    resize          : none;
+    box-sizing      : border-box;
+}
+
+footer {
+    position        : fixed;
+    bottom          : 0;
+    left            : 20px;
+}
